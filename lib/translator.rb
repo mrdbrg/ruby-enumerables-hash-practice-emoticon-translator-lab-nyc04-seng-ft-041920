@@ -20,6 +20,7 @@ end
 
 def get_english_meaning(filePath, emoStr)
   emoticons = load_library(filePath)
+  
   emoticons.map do |dataKey, dataValue|
     if dataValue[:japanese] == emoStr
       return dataKey
@@ -28,7 +29,7 @@ def get_english_meaning(filePath, emoStr)
   return "Sorry, that emoticon was not found"
 end
 
-def #get_japanese_emoticon(filePath, emoStr)
+def get_japanese_emoticon(filePath, emoStr)
   emoticons = load_library(filePath)
 
   emoticons.map do |dataKey, dataValue|
