@@ -40,9 +40,9 @@ def get_japanese_emoticon(filePath, emoStr)
   return "Sorry, that emoticon was not found"
 end
 
-# p get_english_meaning("lib/emoticons.yml", "(＾ｖ＾)")
-# p get_english_meaning("lib/emoticons.yml", "(Ｔ▽Ｔ)")
-# p get_english_meaning("lib/emoticons.yml", "(＾ｖ＾)")
+p get_english_meaning("lib/emoticons.yml", "(＾ｖ＾)")
+p get_english_meaning("lib/emoticons.yml", "(Ｔ▽Ｔ)")
+p get_english_meaning("lib/emoticons.yml", "(＾ｖ＾)")
 
 p get_japanese_emoticon("lib/emoticons.yml", "=D")
 p get_japanese_emoticon("lib/emoticons.yml", "O:)")
